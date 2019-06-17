@@ -93,13 +93,13 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
-
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
 /*--
 	Slider Start
 --*/
+
 #slider {
   background: url("../img/bg4.jpg") no-repeat;
   background-size: cover;
@@ -143,6 +143,18 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: justify;
 }
 
+#slider .btn-contact {
+  background: #fff;
+  color: #655E7A;
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+#slider .btn-contact:hover{
+    -webkit-transform: scale(1.1);
+    background: rgb(210, 201, 191);
+}
+
 /*--
 	wrapper Start
 --*/
@@ -150,18 +162,23 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 60px 0;
 }
 #intro .block h1 {
+  font-family: 'Roboto', sans-serif;
   padding: 35px 0px 35px 0;
   line-height: 27px;
   margin: 0;
   font-weight: 600;
 }
 #intro .block p {
+  font-family: 'Roboto', sans-serif;
   color: #7B7B7B;
   padding-top: 20px;
 }
 #intro .block img {
   padding-left: 40px;
   width: 156%;
+  display: block;
+  margin-right: -20px;
+  text-align: center;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -214,9 +231,27 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
 }
 #feature .feature {
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 50px 20px;
   background: rgba(187, 185, 179, 0.60);
 
+}
+
+#feature .btn-contact {
+  background: #fff;
+  color: #655E7A;
+  padding: 10px 20px;
+  margin-top: 50px;
+  text-align:center;
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#feature .btn-contact:hover{
+    -webkit-transform: scale(1.1);
+    background: rgb(224, 224, 224);
 }
 
 
@@ -229,12 +264,15 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item {
   padding-bottom: 30px;
+
+  margin:
 }
 #service .service-item i {
   font-size: 60px;
   color: #4A4656;
 }
 #service .service-item h4 {
+  font-size: 23px;
   padding-top: 20px;
   margin: 0;
   color: #666;
@@ -243,8 +281,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #888;
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.8;
+
 }
 
 #service .btn-view-works {
@@ -252,11 +291,158 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 10px 20px;
   margin-top: 50px;
+  font-size: 17px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+
 }
 /*--
-	call-to-action Start
+	Team
 --*/
-#call-to-action {
+
+#team {
+  background: url("../img/george-pagan-iii-1464107-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+#team:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  opacity: 0.8;
+}
+
+/* Heading */
+#team .heading {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#team a {
+  font-size: 30px;
+  color: #fff;
+}
+
+#team .heading h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #FFF;
+}
+
+#team .heading p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #8693a7;
+}
+
+/* Team Members */
+#team .team-members {
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+#team .team-members .team-avatar {
+    position: relative;
+}
+
+#team .team-members .team-avatar:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(129, 129, 129, 0.1);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+#team .team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#team .team-members .team-desc {
+    left: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+#team .team-members .team-desc h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+#team .team-members .team-desc span {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#team .team-members:hover .team-avatar:after {
+    background: rgba(218, 212, 198, 0.29);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+#team .team-members:hover .team-desc {
+    -webkit-transform: translate3d(0, -5%, 0);
+    transform: translate3d(0, -5%, 0);
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0);
+}
+
+#team .team-members:hover .team-desc {
+    opacity: 1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+
+/*#call-to-action {
   background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -294,7 +480,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 15px;
   color: #333333;
   margin-top: 30px;
-}
+}*/
 
 /*--
 	content Start
@@ -809,6 +995,13 @@ footer {
   padding-top: 48px;
   padding-bottom: 55px;
 }
+
+footer .navbar-brand {
+  padding-top: 20px;
+  height: 30%;
+  Width: 450px;
+}
+
 footer p {
   font-size: 13px;
   line-height: 25px;
