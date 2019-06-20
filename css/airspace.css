@@ -298,6 +298,11 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
 
 }
+
+#service .btn-view-works:hover{
+    -webkit-transform: scale(1.1);
+    background: #786e83;
+}
 /*--
 	Team
 --*/
