@@ -399,6 +399,105 @@ px      68    160    252    344    436    */
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+
+  /*--
+  	Header Start
+  --*/
+
+  header .navbar-brand {
+    padding-top: 20px;
+    Width: 80%;
+  }
+
+  /*--
+    Slider Start
+  --*/
+
+  #slider {
+    padding: 50px 0 100px 0;
+  }
+  #slider .block h1 {
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+  }
+  #slider .block p {
+    font-size: 20px;
+  }
+  #slider p {
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  /*--
+  	Intro Start
+  --*/
+  #intro {
+    padding: 60px 0;
+  }
+  #intro .block h1 {
+    text-align: center;
+    padding: 10px 0px 35px 0;
+  }
+  #intro .block p {
+    font-size: 20px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  #intro .block img {
+    width: 156%;
+    display: block;
+    text-align: center;
+    margin-right: -15px;
+  }
+
+  /*--
+    Feature Start
+  --*/
+  #feature {
+  padding: 0;
+  }
+
+  #feature .feature {
+    padding: 50px 10px 50px 20px;
+  }
+
+  #feature h1 {
+  text-align: center;
+  }
+  #feature p {
+    font-size: 20px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  #feature .btn-contact {
+    margin: 50px 0 50px 120px;
+    font-size: 20px;
+  }
+
+  /*--
+    Service Start
+  --*/
+
+  #service {
+    padding-top: 50px;
+}
+
+  /*--
+  	footer Start
+  --*/
+
+
+  footer .navbar-brand {
+    padding-top: 20px;
+    Width: 100%;
+    margin-bottom: 50px;
+  }
+
+}
+
 @media only screen and (min-width: 320px) and (max-width: 375px) {
 
   /*--
@@ -411,6 +510,81 @@ px      68    160    252    344    436    */
   }
 
   /*--
+    Slider Start
+  --*/
+
+  #slider {
+    padding: 50px 0 100px 0;
+  }
+  #slider .block h1 {
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+  }
+  #slider .block p {
+    font-size: 17px;
+  }
+  #slider p {
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  /*--
+  	Intro Start
+  --*/
+  #intro {
+    padding: 60px 0;
+  }
+  #intro .block h1 {
+    text-align: center;
+    padding: 10px 0px 35px 0;
+  }
+  #intro .block p {
+    font-size: 17px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  #intro .block img {
+    width: 156%;
+    display: block;
+    text-align: center;
+    margin-right: -15px;
+  }
+
+  /*--
+    Feature Start
+  --*/
+  #feature {
+  padding: 0;
+  }
+
+  #feature .feature {
+    padding: 50px 10px 50px 20px;
+  }
+
+  #feature h1 {
+  text-align: center;
+  }
+  #feature p {
+    font-size: 17px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  #feature .btn-contact {
+    margin: 50px 0 50px 95px;
+    font-size: 17px;
+  }
+
+  /*--
+    Service Start
+  --*/
+
+  #service {
+    padding-top: 50px;
+}
+
+  /*--
   	footer Start
   --*/
 
@@ -418,6 +592,106 @@ px      68    160    252    344    436    */
   footer .navbar-brand {
     padding-top: 20px;
     Width: 100%;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  /*--
+  	Header Start
+  --*/
+
+  header .navbar-brand {
+    padding-top: 20px;
+    Width: 75%;
+  }
+
+  /*--
+  	Slider Start
+  --*/
+
+  #slider {
+    padding: 50px 0 100px 0;
+  }
+  #slider .block h1 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+  }
+  #slider .block p {
+    font-size: 17px;
+  }
+  #slider p {
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  /*--
+  	Intro Start
+  --*/
+  #intro {
+    padding: 60px 0;
+  }
+  #intro .block h1 {
+    text-align: center;
+    padding: 10px 0px 35px 0;
+  }
+  #intro .block p {
+    font-size: 17px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  #intro .block img {
+    width: 156%;
+    display: block;
+    text-align: center;
+    margin-right: -15px;
+  }
+
+  /*--
+  	Feature Start
+  --*/
+  #feature {
+  padding: 0;
+  }
+
+  #feature .feature {
+    padding: 50px 10px 50px 20px;
+  }
+
+  #feature h1 {
+  text-align: center;
+  }
+  #feature p {
+    font-size: 17px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  #feature .btn-contact {
+    margin: 50px 0 50px 70px;
+    font-size: 17px;
+  }
+
+  /*--
+    Service Start
+  --*/
+
+  #service {
+    padding-top: 50px;
+  }
+
+  /*--
+  	footer Start
+  --*/
+
+
+  footer .navbar-brand {
+    padding-top: 20px;
+    Width: 100%;
+    margin-bottom: 50px;
   }
 
 }
