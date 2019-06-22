@@ -16,6 +16,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -174,10 +175,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
+
   width: 156%;
   display: block;
-  margin-right: -20px;
   text-align: center;
 }
 #intro .section-title {
