@@ -182,7 +182,7 @@ px      68    160    252    */
     Width: 400px;
     margin-bottom: 10px;
 }
-  }
+
 
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -403,6 +403,7 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
+
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
