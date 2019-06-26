@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Zentribes
-subtitle: "Human centric marketing for p2p & social impact startups"
+title: "Human centric marketing for p2p & social impact startups"
+subtitle: "Less is more"
 description: "As a one-stop agency, we deliver a full spectrum of online & offline marketing services."
 url: http://zentribes.org/ # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
