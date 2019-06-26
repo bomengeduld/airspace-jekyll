@@ -17,21 +17,48 @@ permalink: /contact/
     </div>
   </div>
 </section>
+
+<div class="row">
+  <form method="post" action="https://formspree.io/mosfabriek@gmail.com" name="contactform" id="contactform">
+    <div class="col-md-6">
+      <fieldset>
+        <input name="name" type="text" id="name" size="30" placeholder="Naam">
+        <br>
+        <input name="email" type="text" id="email" size="30" placeholder="Email">
+        <br>
+        <input name="phone" type="text" id="phone" size="30" placeholder="Telefoon">
+
+      </fieldset>
+    </div>
+    <div class="col-md-6">
+      <fieldset>
+        <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Boodschap"></textarea>
+      </fieldset>
+    </div>
+    <div class="col-md-12">
+      <fieldset>
+        <button type="submit" class="btn btn-lg" id="submit" value="Submit">Verzenden</button>
+      </fieldset>
+    </div>
+  </form>
+</div>
+
+
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form method="post" action="https://formspree.io/ginoludik@gmail.com" name="contactform" id="contactform">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input name="name" type="text" class="form-control" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input name="email" type="text" class="form-control" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input name="subject" type="text" class="form-control" placeholder="Subject">
             </div>
           </form>
         </div>
@@ -40,14 +67,14 @@ permalink: /contact/
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea name="comments" class="form-control" rows="3" placeholder="Your Message"></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
           </form>
         </div>
       </div>
     </div>
-  <!--  <div id="contact-box" class="row">
+    <!--  <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <h2>Stop By For A visit</h2>
@@ -100,7 +127,7 @@ permalink: /contact/
   </div>
 </section>
 <!-- Call to action Start -->
-<!--<section id="call-to-action">
+    <!--<section id="call-to-action">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
