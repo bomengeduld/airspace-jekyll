@@ -358,6 +358,16 @@ px      68    160    252    */
   /*---------------------------------------------
 					contact Start
 -----------------------------------------------*/
+
+/*--
+  Contact Start
+--*/
+
+#global-header .block h1 {
+
+    margin-left: -70px;
+}
+
   /*--
 	slider-contact Start
 --*/
@@ -503,6 +513,15 @@ px      68    160    252    344    436    */
     padding-top: 50px;
 }
 
+/*--
+  Contact Start
+--*/
+
+#global-header .block h1 {
+
+    margin-left: -70px;
+}
+
   /*--
   	footer Start
   --*/
@@ -602,6 +621,15 @@ px      68    160    252    344    436    */
     padding-top: 50px;
 }
 
+/*--
+  Contact Start
+--*/
+
+#global-header .block h1 {
+
+    margin-left: -70px;
+}
+
   /*--
   	footer Start
   --*/
@@ -699,6 +727,16 @@ px      68    160    252    344    436    */
 
   #service {
     padding-top: 50px;
+  }
+
+
+  /*--
+    Contact Start
+  --*/
+
+  #global-header .block h1 {
+
+      margin-left: -70px;
   }
 
   /*--
