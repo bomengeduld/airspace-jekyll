@@ -12,20 +12,34 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
-  /*--
-	wrapper Start
---*/
-  #wrapper {
-    text-align: center;
-  }
-  #wrapper .block img {
-    padding-top: 100px;
-    width: 50%;
-  }
+
+
+#intro .par1 img {
+
+  width: 132.5%;
+  height: 800px;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*---------------------------------------------
+					Index Start
+-----------------------------------------------*/
+
+
+#intro .par1 img {
+
+margin-top: 70px;
+  width: 111%;
+  height: 500px;
+}
+
   /*--
 	content Start
 --*/
@@ -211,12 +225,9 @@ px      68    160    252    */
 	Intro Start
 --*/
 
-  #intro .block img {
-    width: 156%;
-    display: block;
-    text-align: center;
-    margin-right: -25px;
-  }
+#intro .par1 img {
+  width: 103%;
+}
 
   /*--
 	service Start
@@ -473,11 +484,8 @@ px      68    160    252    344    436    */
     padding-right: 5px;
     text-align: center;
   }
-  #intro .block img {
-    width: 156%;
-    display: block;
-    text-align: center;
-    margin-right: -15px;
+  #intro .par1 img {
+    width: 103.8%;
   }
 
   /*--
@@ -581,11 +589,8 @@ px      68    160    252    344    436    */
     padding-right: 5px;
     text-align: center;
   }
-  #intro .block img {
-    width: 156%;
-    display: block;
-    text-align: center;
-    margin-right: -15px;
+  #intro .par1 img {
+    width: 104.3%;
   }
 
   /*--
@@ -689,11 +694,8 @@ px      68    160    252    344    436    */
     padding-right: 5px;
     text-align: center;
   }
-  #intro .block img {
-    width: 156%;
-    display: block;
-    text-align: center;
-    margin-right: -15px;
+  #intro .par1 img {
+    width: 105.3%;
   }
 
   /*--
