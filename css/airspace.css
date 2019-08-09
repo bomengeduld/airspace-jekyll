@@ -294,15 +294,17 @@ width: 157.3%;
 #feature h1 {
   font-weight: 600;
   margin-bottom: 30px;
-  color: #fff;
+  color: #655E7A;
+
 }
 #feature p {
-  color: #fff;
+  color: #655E7A;
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+
 }
 
 
