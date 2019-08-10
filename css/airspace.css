@@ -511,6 +511,13 @@ Carousel
   color: #fff;
 }
 
+#team .team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
 #team .heading h2 {
     font-size: 40px;
     font-weight: 500;
@@ -550,12 +557,6 @@ Carousel
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-#team .team-members .team-avatar img {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
 }
 
 #team .team-members .team-desc {
