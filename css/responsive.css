@@ -218,10 +218,12 @@ px      68    160    252    */
 }
 
 
-  header .navbar-default .navbar-toggle {
-    margin-top: 20px;
+header .navbar-default .navbar-toggle {
+    margin-top: 50px;
     margin-bottom: 20px;
-  }
+}
+
+
 
   /*--
 	Slider Start
@@ -235,10 +237,13 @@ px      68    160    252    */
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 40px;
+      font-size: 30px;
+      text-align: center;
   }
   #slider .block p {
     font-size: 23px;
+      text-align: center;
+      padding-right: 0px;
   }
 
   /*--
@@ -252,6 +257,27 @@ px      68    160    252    */
   padding-top: 0px;
 }
 
+
+
+#feature .feature1 {
+text-align: center;
+}
+
+  #feature .btn-contact {
+    margin: 5px 0 100px 0px;
+    font-size: 17px;
+  }
+
+  #feature .btn-contact {
+    padding: 1px 20px;
+}
+
+  #feature .feature2 {
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+
   /*--
 	service Start
 --*/
@@ -261,6 +287,12 @@ px      68    160    252    */
   #service .thumbnail {
     padding-bottom: 70px;
   }
+
+
+
+
+
+
   /*--
 	call-to-action Start
 --*/
@@ -602,6 +634,14 @@ padding-top: 20px;
     padding-top: 100px;
 }
 
+
+#team .team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
 /*--
   Contact Start
 --*/
@@ -722,6 +762,13 @@ padding-top: 20px;
   #feature .feature2 {
     padding-top: 0px;
     padding-left: 15px;
+}
+
+#team .team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
 }
 
   /*--
