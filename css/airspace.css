@@ -171,7 +171,7 @@ padding: 10px 0 0 0;
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #7be5ffff, #322e40);
+  background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
 #slider .block {
@@ -287,26 +287,25 @@ width: 157.3%;
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #7be5ffff, #ecff9aff);
+  background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
 
 #feature h1 {
   font-weight: 600;
   margin-bottom: 30px;
-  color: #655E7A;
+  color: #fff;
 
 }
 #feature p {
-  color: #655E7A;
+  color: #fff;
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3px;
 
 }
-
 
 #feature .btn-contact {
   background: #fff;
@@ -327,6 +326,91 @@ width: 157.3%;
 }
 
 
+#feature .feature2 {
+padding-top: 15px;
+padding-left: 150px;
+}
+
+#feature .feature2 p {
+font-size: 15px;
+text-align: center;
+}
+
+#feature .feature2 img {
+width: 100px;
+margin-top: 10px;
+}
+
+#feature .feature2 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 0px;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+
+#feature .feature2 h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+/*--
+Carousel
+--*/
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #7be5ffff;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
 /*--
 	service Start
 --*/
@@ -341,7 +425,7 @@ width: 157.3%;
 }
 #service .service-item i {
   font-size: 60px;
-  color: #7be5ffff;
+  color: #666;
 }
 #service .service-item h4 {
   font-size: 23px;
@@ -376,14 +460,6 @@ width: 157.3%;
     background: #786e83;
 }
 
-/*--
-Carousel
---*/
-
-#car {
-  padding: 0 0 100px 0;
-  background: rgba(#ecff9a, 0.39) !important;
-}
 
 
 /*--
@@ -409,7 +485,7 @@ Carousel
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #7be5ffff, #322e40);
+  background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
 
@@ -530,161 +606,6 @@ Carousel
 
 
 
-/*#call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 70px 0px;
-  position: relative;
-  text-align: center;
-  color: #fff;
-}
-#call-to-action:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #1d192c;
-  opacity: 0.8;
-}
-#call-to-action h2 {
-  padding-bottom: 20px;
-  line-height: 33px;
-  margin: 0;
-  font-size: 30px;
-}
-#call-to-action p {
-  font-size: 14px;
-  line-height: 1.6;
-}
-#call-to-action .btn-call-to-action {
-  padding: 15px 35px;
-  border: none;
-  background-color: #fff;
-  font-size: 15px;
-  color: #333333;
-  margin-top: 30px;
-}*/
-
-/*--
-	content Start
---*/
-/* carousel */
-#quote-carousel
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-}
-
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
-/* End carousel */
-
-.item blockquote {
-    border-left: none;
-    margin: 0;
-}
-
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
-
-
-
-/**
-  MEDIA QUERIES
-*/
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #quote-carousel
-    {
-      margin-bottom: 0;
-      padding: 0 40px 30px 40px;
-    }
-
-}
-
-/* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) {
-
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 5px;
-        width: 15px;
-        height: 15px;
-    }
-    #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
-    }
-}
-/*--
-	features Start
---*/
-#clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
-}
 /*---------------------------------------------
 					Work Start
 -----------------------------------------------*/
