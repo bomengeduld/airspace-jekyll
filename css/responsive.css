@@ -192,7 +192,7 @@ text-align: center;
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 667px) and (max-width: 768px) {
   /*--------------------------------------------------------------------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -449,6 +449,37 @@ px      68    160    252    */
   }
 
 }
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 667px) {
+
+  header .navbar-default .navbar-toggle {
+      margin-top: 50px;
+      margin-bottom: 20px;
+  }
+
+  #feature .feature1 {
+text-align: center;
+}
+
+    #feature .btn-contact {
+      margin: 5px 0 100px 0px;
+      font-size: 17px;
+    }
+
+    #feature .btn-contact {
+      padding: 1px 20px;
+  }
+
+    #feature .feature2 {
+      padding-top: 0px;
+      padding-left: 15px;
+  }
+
+
+	}
+
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.
