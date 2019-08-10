@@ -51,10 +51,30 @@ margin-top: 70px;
   }
   /*--
 	features Start
---*/
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   #features {
     text-align: center;
   }
+
+  #feature .feature1 {
+text-align: center;
+}
+
+    #feature .btn-contact {
+      margin: 5px 0 100px 0px;
+      font-size: 17px;
+    }
+
+    #feature .btn-contact {
+      padding: 1px 20px;
+  }
+
+    #feature .feature2 {
+      padding-top: 0px;
+      padding-left: 15px;
+  }
+
+
   /*--
 	footer Start
 --*/
@@ -227,6 +247,9 @@ px      68    160    252    */
 
 #intro .par1 img {
   width: 103%;
+  height: 500px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
   /*--
@@ -449,11 +472,20 @@ px      68    160    252    344    436    */
     Width: 80%;
   }
 
+  header .navbar-default .navbar-toggle {
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
   /*--
     Slider Start
   --*/
 
   #slider {
+    background: url("../img/smh.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    position: relative;
     padding: 50px 0 100px 0;
   }
   #slider .block h1 {
@@ -473,7 +505,7 @@ px      68    160    252    344    436    */
   	Intro Start
   --*/
   #intro {
-    padding: 60px 0;
+    padding: 100px 0;
   }
   #intro .block h1 {
     text-align: center;
@@ -486,13 +518,21 @@ px      68    160    252    344    436    */
   }
   #intro .par1 img {
     width: 103.8%;
+    height: 300px;
+padding-top: 20px;
+
   }
 
   /*--
     Feature Start
   --*/
   #feature {
-  padding: 0;
+    padding: 100px 0 50px;
+    background: url("../img/smh2.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    position: relative;
   }
 
   #feature .feature {
@@ -508,17 +548,27 @@ px      68    160    252    344    436    */
     text-align: center;
   }
 
+
   #feature .btn-contact {
-    margin: 50px 0 50px 120px;
-    font-size: 20px;
+    margin: 5px 0 100px 125px;
+    font-size: 17px;
   }
+
+  #feature .btn-contact {
+    padding: 1px 20px;
+}
+
+  #feature .feature2 {
+    padding-top: 0px;
+    padding-left: 15px;
+}
 
   /*--
     Service Start
   --*/
 
   #service {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 /*--
@@ -554,11 +604,20 @@ px      68    160    252    344    436    */
     Width: 80%;
   }
 
+  .navbar-toggle {
+    margin-top: 20px;
+}
+
   /*--
     Slider Start
   --*/
 
   #slider {
+    background: url("../img/smh.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    position: relative;
     padding: 50px 0 100px 0;
   }
   #slider .block h1 {
@@ -578,7 +637,7 @@ px      68    160    252    344    436    */
   	Intro Start
   --*/
   #intro {
-    padding: 60px 0;
+    padding: 100px 0;
   }
   #intro .block h1 {
     text-align: center;
@@ -591,13 +650,20 @@ px      68    160    252    344    436    */
   }
   #intro .par1 img {
     width: 104.3%;
+    height: 300px;
+padding-top: 20px;
   }
 
   /*--
     Feature Start
   --*/
   #feature {
-  padding: 0;
+    padding: 100px 0 50px;
+    background: url("../img/smh2.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    position: relative;
   }
 
   #feature .feature {
@@ -614,16 +680,25 @@ px      68    160    252    344    436    */
   }
 
   #feature .btn-contact {
-    margin: 50px 0 50px 95px;
+    margin: 5px 0 100px 105px;
     font-size: 17px;
   }
+
+  #feature .btn-contact {
+    padding: 1px 20px;
+}
+
+  #feature .feature2 {
+    padding-top: 0px;
+    padding-left: 15px;
+}
 
   /*--
     Service Start
   --*/
 
   #service {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 /*--
@@ -659,11 +734,20 @@ px      68    160    252    344    436    */
     Width: 75%;
   }
 
+  .navbar-toggle {
+    margin-top: 20px;
+}
+
   /*--
   	Slider Start
   --*/
 
   #slider {
+    background: url("../img/smh.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    position: relative;
     padding: 50px 0 100px 0;
   }
   #slider .block h1 {
@@ -683,7 +767,7 @@ px      68    160    252    344    436    */
   	Intro Start
   --*/
   #intro {
-    padding: 60px 0;
+    padding: 100px 0;
   }
   #intro .block h1 {
     text-align: center;
@@ -696,13 +780,20 @@ px      68    160    252    344    436    */
   }
   #intro .par1 img {
     width: 105.3%;
+    height: 300px;
+padding-top: 20px;
   }
 
   /*--
   	Feature Start
   --*/
   #feature {
-  padding: 1px 0 50px;
+  padding: 100px 0 50px;
+  background: url("../img/smh2.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 50%;
+  position: relative;
   }
 
   #feature .feature {
@@ -719,16 +810,25 @@ px      68    160    252    344    436    */
   }
 
   #feature .btn-contact {
-    margin: 50px 0 50px 70px;
+    margin: 5px 0 100px 70px;
     font-size: 17px;
   }
+
+  #feature .btn-contact {
+    padding: 1px 20px;
+}
+
+  #feature .feature2 {
+    padding-top: 0px;
+    padding-left: 15px;
+}
 
   /*--
     Service Start
   --*/
 
   #service {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
 
