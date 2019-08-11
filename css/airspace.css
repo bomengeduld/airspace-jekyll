@@ -441,6 +441,7 @@ Carousel
   padding-top: 20px;
   margin: 0;
   color: #666;
+  font-family: 'Roboto', sans-serif;
 }
 #service .service-item p {
   color: #888;
@@ -448,6 +449,7 @@ Carousel
   margin: 0;
   font-size: 17px;
   line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -476,10 +478,10 @@ Carousel
 --*/
 
 #team {
-  background: url("../img/george-pagan-iii-1464107-unsplash.jpg") no-repeat;
+  background: url("../img/pas.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 70px 0px;
+  padding: 100px 0px;
   position: relative;
   text-align: center;
   color: #fff;
@@ -498,24 +500,24 @@ Carousel
   opacity: 0.8;
 }
 
-/* Heading */
-#team .heading {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    margin-bottom: 0px;
-}
 
 #team a {
   font-size: 30px;
   color: #fff;
 }
 
-#team .team-members .team-avatar img {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 70%;
+#team .p1 {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+  font-size: 17px;
+}
+
+
+
+
+#team img {
+width: 100px;
+margin-top: 50px;
 }
 
 #team .heading h2 {
@@ -523,14 +525,20 @@ Carousel
     font-weight: 500;
     margin: 0 0 20px;
     color: #FFF;
+    font-family: 'Roboto', sans-serif;
 }
 
-#team .heading p {
+#team .a2 p {
     font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #8693a7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+background: rgba(255, 255, 255, 0.6);
+color: #545454 !important;
+
 }
 
 /* Team Members */
