@@ -820,6 +820,7 @@ padding-top: 20px;
   	Slider Start
   --*/
 
+
   #slider {
     background: url("../img/smh.png") no-repeat;
     background-size: cover;
@@ -865,14 +866,7 @@ padding-top: 20px;
   /*--
   	Feature Start
   --*/
-  #feature {
-  padding: 100px 0 50px;
-  background: url("../img/smh2.png") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 50%;
-  position: relative;
-  }
+
 
   #feature .feature {
     padding: 50px 10px 50px 20px;
