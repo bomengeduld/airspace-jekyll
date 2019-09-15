@@ -18,15 +18,20 @@ title: "Human centric marketing for p2p & social impact startups"
 subtitle:
 description: "Zentribes is a non-profit organization that helps startups effectively engage their community."
 keywords: "Social Media, Impact, Events, p2p, brand identity, marketing strategy, project, community, web development"
-url: http://zentribes.org/ # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl:
+baseurl: "/zentribes.org"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+
+
+# jekyll-paginate configuration
+paginate: 5
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # ---------------------------------------------------------------------------- #
 #    1) copy plugins to config:

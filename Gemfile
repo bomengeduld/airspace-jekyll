@@ -1,4 +1,5 @@
 source "https://rubygems.org"
-gemspec  
+gemspec
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jekyll-paginate'
