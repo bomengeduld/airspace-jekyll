@@ -32,6 +32,14 @@ px      68    160    252    344    436    528    620    712    */
 					Index Start
 -----------------------------------------------*/
 
+.col-md-offset-2 {
+    margin-left: 9.66666667%;
+}
+
+#slider .block {
+    color: #E3E3E4;
+    padding-right: 2px;
+}
 
 #intro .par1 img {
 
@@ -229,22 +237,32 @@ header .navbar-default .navbar-toggle {
 	Slider Start
 --*/
 
+
+
   #slider {
     padding-top: 90px;
     padding-bottom: 100px;
   }
   #slider .block {
-    padding-left: 0px;
+      color: #E3E3E4;
+      padding-right: 2px;
   }
   #slider .block h1 {
       font-size: 30px;
       text-align: center;
   }
   #slider .block p {
-    font-size: 23px;
+      font-size: 23px;
       text-align: center;
-      padding-right: 0px;
+      padding-right: 40px;
   }
+
+  #slider .block img {
+    padding-top: 20px;
+    height: 60%;
+    Width: 450px;
+    margin-left: 60px;
+}
 
   /*--
 	Intro Start
@@ -542,9 +560,23 @@ px      68    160    252    344    436    */
   /*--
     Slider Start
   --*/
+  #slider .block img {
+      padding-top: 20px;
+      height: 60%;
+      Width: 300px;
+      margin-left: 50px;
+      padding-bottom: 50px;
+    }
+
+
+    #slider .block {
+    color: #E3E3E4;
+    padding-bottom: 200px;
+    padding-right: 2px;
+}
 
   #slider {
-    background: url("../img/smh.png") no-repeat;
+    background: url("../img/bg1_zks.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 50%;
@@ -683,8 +715,23 @@ padding-top: 20px;
     Slider Start
   --*/
 
+  #slider .block img {
+      padding-top: 20px;
+      height: 60%;
+      Width: 300px;
+      margin-left: 20px;
+      padding-bottom: 50px;
+    }
+
+
+    #slider .block {
+    color: #E3E3E4;
+    padding-bottom: 200px;
+      padding-right: 2px;
+}
+
   #slider {
-    background: url("../img/smh.png") no-repeat;
+    background: url("../img/bg1_zks.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 50%;
@@ -820,9 +867,23 @@ padding-top: 20px;
   	Slider Start
   --*/
 
+  #slider .block img {
+      padding-top: 20px;
+      height: 60%;
+      Width: 450px;
+      margin-left: 1px;
+      padding-bottom: 50px;
+    }
+
+
+    #slider .block {
+    color: #E3E3E4;
+    padding-bottom: 200px;
+      padding-right: 2px;
+}
 
   #slider {
-    background: url("../img/smh.png") no-repeat;
+    background: url("../img/bg1_zks.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 50%;
@@ -866,14 +927,7 @@ padding-top: 20px;
   /*--
   	Feature Start
   --*/
-  #feature {
-  padding: 100px 0 50px;
-  background: url("../img/smh2.png") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 50%;
-  position: relative;
-  }
+
 
   #feature .feature {
     padding: 50px 10px 50px 20px;

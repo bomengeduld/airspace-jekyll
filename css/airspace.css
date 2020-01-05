@@ -75,8 +75,8 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 20px;
-  height: 70%;
-  Width: 450px;
+  height: 60%;
+  Width: 300px;
 }
 header .navbar-default {
   background: none;
@@ -92,19 +92,19 @@ header .navbar-default .navbar-nav li a {
 }
 header .navbar-default .navbar-nav .a1 a:hover {
   color: #fff;
-  background-color: #7be5ffff;
+  background-color: #c8ab37ff;
   padding: 10px 26px;
 }
 
 header .navbar-default .navbar-nav .a2 a:hover {
   color: #fff;
-  background-color: #ecff9aff;
+  background-color: #c8ab37ff;
   padding: 10px 26px;
 }
 
 header .navbar-default .navbar-nav .a3 a:hover {
   color: #fff;
-  background-color: #ff0066ff;
+  background-color: #c8ab37ff;
   padding: 10px 26px;
 }
 
@@ -155,11 +155,11 @@ padding: 10px 0 0 0;
 --*/
 
 #slider {
-  background: url("../img/hm6.jpg") no-repeat;
+  background: url("../img/bg_zks.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 50%;
-  padding: 150px 0 220px 0;
+  padding: 200px 0 200px 0;
   position: relative;
 }
 #slider:before {
@@ -176,6 +176,7 @@ padding: 10px 0 0 0;
 }
 #slider .block {
   color: #E3E3E4;
+  padding-right: 200px;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
@@ -184,7 +185,15 @@ padding: 10px 0 0 0;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
+  text-align: Center;
 
+}
+
+#slider .block img {
+  padding-top: 20px;
+  height: 60%;
+  Width: 450px;
+  margin-left: 140px;
 }
 #slider .block p {
   font-size: 23px;
@@ -194,8 +203,8 @@ padding: 10px 0 0 0;
   letter-spacing: 3px;
 }
 #slider p {
-  padding-right: 200px;
-  text-align: justify;
+  padding-right: 0px;
+  text-align: center;
 }
 
 #slider .btn-contact {
