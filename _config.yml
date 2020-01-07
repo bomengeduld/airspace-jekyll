@@ -14,10 +14,9 @@ keep_files:
 
 
 # Site settings
-title: "Human centric marketing for p2p & social impact startups"
+title: "ZKS Projects, expert in renovatie werken & horeca inrichting"
 subtitle:
-description: "Zentribes is a non-profit organization that helps startups effectively engage their community."
-keywords: "Social Media, Impact, Events, p2p, brand identity, marketing strategy, project, community, web development"
+description: "ZKS Projects, expert in renovatie werken & horeca inrichting"
 url:  # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/zentribes.org"
