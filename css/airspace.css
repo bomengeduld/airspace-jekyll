@@ -159,7 +159,7 @@ padding: 10px 0 0 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
-  padding: 200px 0 200px 0;
+  padding: 50px 0 180px 0;
   position: relative;
 }
 #slider:before {
@@ -192,7 +192,7 @@ padding: 10px 0 0 0;
 #slider .block h3 {
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: px;
     line-height: 40px;
     letter-spacing: 10px;
