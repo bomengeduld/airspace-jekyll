@@ -17,9 +17,7 @@ keep_files:
 title: "ZKS Projects, expert in renovatie werken & horeca inrichting"
 subtitle:
 description: "ZKS Projects, expert in renovatie werken & horeca inrichting"
-url:  # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/zentribes.org"
+url: "http://zksprojects.be/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
