@@ -200,6 +200,54 @@ text-align: center;
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
+
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+
+
+  #slider {
+    height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 0px;
+  }
+
+
+    #slider {
+      height: 100vh;
+      width: 100%;
+      padding-top: 90px;
+      padding-bottom: 0px;
+    }
+    #slider .block {
+        color: #E3E3E4;
+        padding-right: 2px;
+    }
+    #slider .block h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #slider .block h3 {
+      font-size: 23px;
+    }
+
+    #slider .block p {
+        font-size: 20px;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    #slider .block img {
+      padding-top: 20px;
+      height: 60%;
+      Width: 450px;
+      margin-left: 60px;
+  }
+
+
+  }
+
 @media only screen and (min-width: 667px) and (max-width: 768px) {
   /*--------------------------------------------------------------------------------------------------------
 					Index Start
@@ -240,8 +288,10 @@ header .navbar-default .navbar-toggle {
 
 
   #slider {
+    height: 100vh;
+    width: 100%;
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
   #slider .block {
       color: #E3E3E4;
@@ -565,7 +615,7 @@ px      68    160    252    344    436    */
       height: 60%;
       Width: 300px;
       margin-left: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 10px;
     }
 
 
@@ -601,7 +651,7 @@ px      68    160    252    344    436    */
     text-align: center;
   }
   #slider .block p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -731,14 +781,6 @@ padding-top: 20px;
     Slider Start
   --*/
 
-  #slider .block img {
-      padding-top: 20px;
-      height: 60%;
-      Width: 300px;
-      margin-left: 20px;
-      padding-bottom: 50px;
-    }
-
 
     #slider .block {
     color: #E3E3E4;
@@ -747,12 +789,15 @@ padding-top: 20px;
 
 #slider {
   background: url("../img/bg1_zks.png") center;
-  height: 100vh;
-  width: 100%;
-  margin: 0;
+
+    height: 100vh;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
   background-size: auto;
   position: relative;
-  padding-top: 40px;
+
 }
 
 #slider:before {
@@ -772,8 +817,13 @@ padding-top: 20px;
     font-size: 35px;
     text-align: center;
   }
+
+  #slider .block h3 {
+    font-size: 23px;
+  }
+
   #slider .block p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -783,6 +833,14 @@ padding-top: 20px;
     padding-right: 5px;
     text-align: center;
   }
+
+  #slider .block img {
+    padding-top: 20px;
+    height: 60%;
+    Width: 300px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
 
   /*--
   	Intro Start
